@@ -14,3 +14,24 @@ rag_chatbot/
 ├── requirements.txt # List of dependencies
 ├── Upload your file # Sample document (or your own)
 └── chroma_db/ # Chroma's persistent DB files (auto-created)
+
+
+
+---
+
+## ⚙️ Features
+
+- 🔍 Load and read your own PDF or TXT documents.
+- 🤖 Ask natural language questions about the document.
+- 🧠 Uses sentence-transformer (`all-MiniLM-L6-v2`) for embeddings.
+- 🧾 Uses `CTransformers` with Mistral 7B GGUF model for local inference.
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone this Repository
+
+```bash
+git clone https://github.com/Ali-619/RAG-Chatbot-using-LangChain-Chroma-HuggingFace.git
+cd RAG-Chatbot-using-LangChain-Chroma-HuggingFace
