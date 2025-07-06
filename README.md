@@ -5,7 +5,7 @@ A simple Retrieval-Augmented Generation (RAG) chatbot built using open-source to
 ---
 
 ## 📁 Project Structure
-"""
+```
 rag_chatbot/
 ├── main.py # Main script to run the chatbot
 ├── load_documents.py # Loads PDF/TXT documents
@@ -14,8 +14,7 @@ rag_chatbot/
 ├── requirements.txt # List of dependencies
 ├── Upload your file # Sample document (or your own)
 └── chroma_db/ # Chroma's persistent DB files (auto-created)
-"""
-
+```
 ---
 
 ## ⚙️ Features
